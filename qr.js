@@ -59,33 +59,26 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
 	
 				   let SIGMA_MD_TEXT = `
-*𝙈𝘼𝘾 𝙈𝘿 𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘾𝙃*
-*𝙈𝘼𝘾 𝙏𝙀𝘾𝙃*
-*𝙇𝙀𝙂𝙄𝙏 𝘽𝙊𝙏*
+*SUPER MD ONLINE*
 ____________________________________
 ╔════◇
 ║『 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍𝙎』
 
-║ ❒ 𝙈𝘼𝘾 𝙏𝙀𝘾𝙃: _https://wa.me/256705036288_
+║ ❒ *Tosh Tech* : _https://wa.me/254111523038_
 
-║ ❒ 𝙄𝘽𝙍𝘼𝙃𝙄𝙈 𝙏𝙀𝘾𝙃: _https://wa.me/message/74F2PC4JA4F3P1_
+║ ❒ *Ibrahim Adams* : _https://wa.me/message/74F2PC4JA4F3P1_
 
 ╚════════════════════❒
 ╔═════◇
 ║ 『••• OWNER INFO •••』
-║ ❒ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: _https://www.youtube.com/@ibrahimmdgpt_
 
-║ ❒ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/256705036288_
-
-║ ❒ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/GoPZhE9zc6Y3ul0RnD4HXw_
+║ ❒ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/K5qhnWJMAZE4lZYnU1Bluk_
 
 ║ ❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VaWGyGVJZg48vgpHBa31_
 
-║ 
 ╚════════════════════╝ 
- *𝙈𝘼𝘾 𝙈𝘿*
+ *TOSH TECH*
 ___________________________________
-
 Don't Forget To Give Star To My Repo`
 					
 	 await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
